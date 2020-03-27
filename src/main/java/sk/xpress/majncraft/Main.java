@@ -32,12 +32,13 @@ public class Main extends JavaPlugin {
         registerCommands();
 
         loadDropList();
-
         this.saveDefaultConfig();
+
+        for(Player p : Bukkit.getOnlinePlayers()) PlayerJoinListener.loadConfigData(p);
     }
 
     public void onDisable(){
-
+        for(Player p : Bukkit.getOnlinePlayers()) PlayerLeaveListener.saveData(p);
     }
 
     public void loadDropList(){

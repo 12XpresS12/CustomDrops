@@ -16,7 +16,7 @@ public class PlayerJoinListener implements Listener {
         loadConfigData(p);
     }
 
-    public void loadConfigData(Player p){
+    public static void loadConfigData(Player p){
         PlayerConfig user = new PlayerConfig(p.getUniqueId());
         user.saveUserFile();
         user.createUser(p);
