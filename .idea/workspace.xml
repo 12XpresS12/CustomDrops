@@ -7,16 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1688bb36-ca7c-4d07-a807-6b9712e5deb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/handler/Drop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/handler/Drops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Majncraft_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Majncraft_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/commands/dropsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/handler/PlayerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/handler/PlayerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/listeners/PlayerJoinListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/listeners/PlayerLeaveListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/listeners/CancelCoalDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/listeners/DropChangeListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sk/xpress/majncraft/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sk/xpress/majncraft/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sk/xpress/majncraft/listeners/DropChangeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sk/xpress/majncraft/listeners/DropChangeListener.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +73,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Auto_Import" timestamp="1585347158827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Auto_Import/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1585347158827" />
+    <state x="693" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585347143731">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="693" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1585347143731" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1585346765987">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1585346765987" />
     <state x="683" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585303738912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

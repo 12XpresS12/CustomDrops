@@ -5,3 +5,7 @@ description: Cancel drop items
 api-version: 1.13
 
 main: sk.xpress.majncraft.Main
+
+commands:
+  drops:
+    description: Pre vypínanie a zapínanie custom drops

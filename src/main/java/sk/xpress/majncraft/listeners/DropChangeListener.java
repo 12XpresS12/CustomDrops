@@ -16,9 +16,10 @@ public class DropChangeListener implements Listener {
 
     @EventHandler
     public void onBlockBreakEvent(BlockBreakEvent e){
+        if(!Main.getPlayerData(e.getPlayer()).isCustomDrops()) return;
+
         Location bLoc = e.getBlock().getLocation();
         Random rand = new Random();
-
         if(Main.getInstance().dropList == null) return;
         for(Drops itemDrop : Main.getInstance().dropList){
 
