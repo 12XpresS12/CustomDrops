@@ -1,0 +1,6 @@
+name: Majncraft
+author: XpresS
+version: 1
+description: Cancel drop items
+
+main: sk.xpress.majncraft.Main
