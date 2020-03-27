@@ -1,6 +1,7 @@
-name: Majncraft
+name: CustomDrops
 author: XpresS
 version: 1
 description: Cancel drop items
+api-version: 1.13
 
 main: sk.xpress.majncraft.Main
