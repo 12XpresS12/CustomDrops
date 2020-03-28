@@ -1,7 +1,7 @@
 lang:
   customdrops:
-    on: '§aPráve si si §a§lzapól§a custom drops!'
-    off: '§aPráve si si §c§lvypól§a custom drops!'
+    zapnute: '§aPráve si si §a§lzapól§a custom drops!'
+    vypnute: '§aPráve si si §c§lvypól§a custom drops!'
 drops:
   COBBLESTONE:
   - STONE:10

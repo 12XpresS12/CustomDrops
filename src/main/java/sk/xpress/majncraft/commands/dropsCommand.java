@@ -19,12 +19,16 @@ public class dropsCommand implements CommandExecutor {
 
                 if (Main.getPlayerData(p).isCustomDrops()) {
                     Main.getPlayerData(p).setCustomDrops(false);
-                    String send = Main.getInstance().getConfig().getString("lang.customdrops.off");
-                    p.sendMessage(send);
+                    Main.getInstance().getConfig().set("lang.customdrops.offs", "test");
+                    Main.getInstance().saveConfig();
+                    String langOff = Main.getInstance().getConfig().getString("lang.customdrops.vypnute");
+                    p.sendMessage(langOff);
+                    Main.print("SEND: " + langOff);
                     //p.sendMessage("§aPráve si si §c§lvypól§a custom drops!");
                 } else {
                     Main.getPlayerData(p).setCustomDrops(true);
-                    String send = Main.getInstance().getConfig().getString("lang.customdrops.on");
+                    String send = Main.getInstance().getConfig().getString("lang.customdrops.zapnute");
+                    Main.print("SEND: " + send);
                     p.sendMessage(send);
                     //p.sendMessage("§aPráve si si §a§lzapól§a custom drops!");
                 }

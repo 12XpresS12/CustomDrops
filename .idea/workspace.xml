@@ -8,9 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1688bb36-ca7c-4d07-a807-6b9712e5deb4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/commands/dropsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/commands/dropsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/listeners/PlayerJoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/xpress/majncraft/listeners/PlayerJoinListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
