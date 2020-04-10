@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="Majncraft:jar">
+  <artifact type="jar" name="CustomDrops:jar">
     <output-path>F:/MCServers/MurderMystery/plugins</output-path>
     <root id="archive" name="Majncraft.jar">
       <element id="module-output" name="Majncraft" />

@@ -10,6 +10,7 @@ import sk.xpress.majncraft.commands.dropsCommand;
 import sk.xpress.majncraft.handler.Drop;
 import sk.xpress.majncraft.handler.Drops;
 import sk.xpress.majncraft.handler.PlayerData;
+import sk.xpress.majncraft.listeners.CustomTraderListener;
 import sk.xpress.majncraft.listeners.DropChangeListener;
 import sk.xpress.majncraft.listeners.PlayerJoinListener;
 import sk.xpress.majncraft.listeners.PlayerLeaveListener;
@@ -72,6 +73,7 @@ public class Main extends JavaPlugin {
         pm.registerEvents(new DropChangeListener(), this);
         pm.registerEvents(new PlayerJoinListener(), this);
         pm.registerEvents(new PlayerLeaveListener(), this);
+        pm.registerEvents(new CustomTraderListener(), this);
     }
 
     public void registerCommands(){
