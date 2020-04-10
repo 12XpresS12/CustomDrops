@@ -41,18 +41,7 @@ public class CustomTraderListener implements Listener {
             }
         }.runTaskLater(Main.getInstance(), 10L);
     }
-/*
-    public void onPlayer(PlayerInteractEntityEvent e){
-        if(e.getRightClicked() instanceof Villager){
-            Villager v = (Villager) e.getRightClicked();
 
-            for(MerchantRecipe recipe : v.getRecipes()){
-                print("Ing1: " + recipe.getIngredients().get(0) + ", Ing2: " + recipe.getIngredients().get(1) + ", Result: " + recipe.getResult());
-            }
-
-        }
-    }
-*/
     private ItemStack getExplorerMap(Entity ent, StructureType type){
         return Bukkit.getServer().createExplorerMap(ent.getWorld(), ent.getLocation(), type, 8000, false);
     }
@@ -64,10 +53,6 @@ public class CustomTraderListener implements Listener {
         customTrade.add(ing2);
         recipe.setIngredients(customTrade);
         return recipe;
-    }
-
-    private void print(String msg){
-        Bukkit.getConsoleSender().sendMessage("[CustomDrops] §7" + msg);
     }
 
 }
